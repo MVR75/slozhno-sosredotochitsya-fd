@@ -8,7 +8,7 @@
 
 .text {
   color: var(--text-color, #f1b2ce);
-  font-family: var(--font-family, 'IBM Plex mono', sans-serif);
+  font-family: var(--font-family, 'IBM Plex mono'), sans-serif;
   font-weight: var(--font-weight-normal, 400);
   font-size: var(--font-size, 18px);
   line-height: 23.4px;
@@ -16,7 +16,7 @@
 
 .title {
   color: var(--title-color, #ff0070);
-  font-family: var(--font-family, 'IBM Plex mono', sans-serif);
+  font-family: var(--font-family, 'IBM Plex mono'), sans-serif;
   font-weight: var(--font-weight-bold, 700);
   font-size: var(--font-size, 18px);
   line-height: 23.4px;
@@ -104,10 +104,9 @@
 }
 
 .header__theme-menu-button {
-  border: none;
-  border-block-end: 1px solid transparent;
+  border: 1px solid transparent;
   color: var(--decor-color, #ff0070);
-  font-family: var(--font-family, 'IBM Plex mono', sans-serif);
+  font-family: var(--font-family, 'IBM Plex mono'), sans-serif;
   font-weight: var(--font-weight-normal, 400);
   font-size: var(--font-size, 18px);
   line-height: 18px;
@@ -135,7 +134,7 @@
 .header__title {
   grid-row: 2 / 3;
   color: var(--header-title-color, #db00ff);
-  font-family: var(--font-family, 'IBM Plex mono', sans-serif);
+  font-family: var(--font-family, 'IBM Plex mono'), sans-serif;
   font-weight: var(--font-weight-bold, 700);
   font-size: var(
     --header-title-size,
@@ -220,7 +219,7 @@
   justify-self: center;
   align-self: center;
   color: var(--header-title-color, #db00ff);
-  font-family: var(--font-family, 'IBM Plex mono', sans-serif);
+  font-family: var(--font-family, 'IBM Plex mono'), sans-serif;
   font-weight: var(--font-weight-bold, 700);
   font-size: var(
     --header-title-size,
